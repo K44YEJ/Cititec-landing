@@ -1,0 +1,148 @@
+/* #C72C41 */
+
+body {
+	font-family: Karla;
+	margin: 0;
+}
+
+h1{
+	color: #D527B7;
+	font-family: Karla;
+}
+
+h2 {
+	font-family: Karla;
+}
+
+h3 {
+	font-family: Karla;
+}
+a{
+	text-decoration: none;
+	color: #D527B7;
+	font-size: 30px;
+	transition-timing-function: .4s;
+}
+
+a:hover{
+	color: white;
+}
+
+.banner{
+	background-image: url(https://negativespace.co/wp-content/uploads/2017/04/negative-space-gray-laptop-computer-showing-html-code-Custom.jpg);
+	padding: 100px 0;
+}
+
+.card-white img {
+width: 180px;
+height: 100px;
+object-fit: cover;
+border-radius: 4px;
+}
+
+.banner p {
+	color: white;
+	font-size: 24px;
+}
+
+.banner h1 {
+	color: #D527B7;
+;
+	font-size: 45px;
+
+}
+.btn-red {
+	background: #D527B7;
+	color: white;
+	text-decoration: none;
+	padding: 16px 24px;
+	border-radius: 4px;
+	transition: .3s;
+}
+
+.btn.red: hover{
+	background: #b11d2f;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.card-white {
+	box-shadow: 8px 0px 16px rgb(230, 230, 230);
+	width:200px; 
+	text-align: center;
+	padding: 16px;
+	border-radius: 4px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 4px;
+
+}
+
+.footer{
+	background: #D527B7;
+	padding: 8px;
+	text-align: center;
+
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 48px;
+	flex-wrap: wrap;
+}
+
+.card-white {
+	box-shadow: 8px 0 px 16px rgb(230, 203, 230);
+	width: 200px;
+	text-align: center;
+	padding: 16px;
+	border-radius: 4px; 
+	flex-grow: 1;
+	margin: 20px;
+
+}
+
+@media (min-width: 400px) {
+	.container {
+		width:200px; 
+	}
+}
+
+
+@media (min-width: 500px) {
+	.container {
+		width:400px; 
+	}
+}
+
+@media (min-width: 800px) {
+	.container {
+		width:600px; 
+	}
+}
+
+@media (min-width: 1000px) {
+	.container {
+		width:800px; 
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.container {
+		width:1000px; 
+	}
+}
+
+
+
+
+
